@@ -172,7 +172,6 @@ img {
 
 .contacts-icon {
   fill: currentColor;
-  stroke: var(--light-txt-cl);
 }
 .nav-contact .contacts-icon:hover,
 .nav-contact .contacts-icon:focus {
@@ -362,7 +361,7 @@ img {
 
   width: 44px;
   height: 44px;
-
+  transition: color 1s ease, margin 1s ease;
   color: var(--bg-grip-cl);
   background-color: var(--second-txt-cl);
   border-radius: 50%;
@@ -576,3 +575,5 @@ img {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+
+
